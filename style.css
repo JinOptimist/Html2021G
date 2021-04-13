@@ -1,0 +1,20 @@
+img{
+	max-width: 100px;
+	max-height: 100px;
+}
+.menu{
+	width: 200px;
+	background: pink;
+}
+
+.gallery{
+	width: 1200px;
+	background: green;
+}
+.parent{
+	display: flex;
+}
+.header{
+	text-align: center;
+	font-size: 40px;
+}

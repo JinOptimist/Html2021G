@@ -18,3 +18,23 @@ img{
 	text-align: center;
 	font-size: 40px;
 }
+
+.button{
+	border: 1px red solid;
+    white-space: nowrap;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 10px;
+    background: #808000;
+	box-shadow: 5px 2px 5px rgb(0 250 0 / 50%);
+}
+
+
+
+
+
+
+
+
+
+

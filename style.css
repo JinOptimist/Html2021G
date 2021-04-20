@@ -31,11 +31,22 @@ img{
 }
 
 .car{
-	background: yellow;
+	border: 10px #ffc solid;
+	
 	margin: 10px;
+    
+    border-radius: 30px;
+}
+.car .name{
+	border-bottom: 10px #ffc solid;    
+    padding: 10px;
+    font-size: 40px;
 }
 .actions{
 	display: flex;
+	border-top: 10px #ffc solid;
+    margin: 10px;
+    padding: 10px;
 }
 
 

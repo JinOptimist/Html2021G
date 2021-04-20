@@ -2,6 +2,13 @@ img{
 	max-width: 300px;
 	max-height: 300px;
 }
+.image-container{
+	width: 300px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .menu{
 	width: 200px;
 	background: pink;
@@ -11,6 +18,7 @@ img{
 	width: 1200px;
 	background: green;
 	display: flex;
+	flex-wrap: wrap;
 }
 .parent{
 	display: flex;
@@ -45,7 +53,7 @@ img{
 .actions{
 	display: flex;
 	border-top: 10px #ffc solid;
-    margin: 10px;
+    
     padding: 10px;
 }
 

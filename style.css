@@ -37,13 +37,19 @@
     background: #7ef4ef;
 	box-shadow: 5px 2px 5px rgb(0 250 0 / 50%);
 }
+.button:hover{
+	background: #000;
+	color: #FFF;
+}
 
 .gallery .car{
 	border: 10px #ffc solid;
-	
 	margin: 10px;
-    
     border-radius: 30px;
+}
+.gallery .car:hover{
+	border-color: #fcc;
+	border-style: dotted;
 }
 .car .name{
 	border-bottom: 10px #ffc solid;    
@@ -53,7 +59,7 @@
 .car .actions{
 	display: flex;
 	border-top: 10px #ffc solid;
-    
+	justify-content: space-between;
     padding: 10px;
 }
 

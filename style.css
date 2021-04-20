@@ -10,6 +10,7 @@ img{
 .gallery{
 	width: 1200px;
 	background: green;
+	display: flex;
 }
 .parent{
 	display: flex;
@@ -33,7 +34,9 @@ img{
 	background: yellow;
 	margin: 10px;
 }
-
+.actions{
+	display: flex;
+}
 
 
 

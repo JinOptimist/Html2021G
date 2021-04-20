@@ -1,6 +1,6 @@
 img{
-	max-width: 100px;
-	max-height: 100px;
+	max-width: 300px;
+	max-height: 300px;
 }
 .menu{
 	width: 200px;
@@ -27,6 +27,11 @@ img{
     border-radius: 10px;
     background: #808000;
 	box-shadow: 5px 2px 5px rgb(0 250 0 / 50%);
+}
+
+.car{
+	background: yellow;
+	margin: 10px;
 }
 
 

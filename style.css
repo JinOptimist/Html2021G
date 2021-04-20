@@ -1,8 +1,8 @@
-img{
+.car .image-container img{
 	max-width: 300px;
 	max-height: 300px;
 }
-.image-container{
+.car .image-container{
 	width: 300px;
 	height: 300px;
 	display: flex;
@@ -34,11 +34,11 @@ img{
     padding: 3px;
     margin: 5px;
     border-radius: 10px;
-    background: #808000;
+    background: #7ef4ef;
 	box-shadow: 5px 2px 5px rgb(0 250 0 / 50%);
 }
 
-.car{
+.gallery .car{
 	border: 10px #ffc solid;
 	
 	margin: 10px;
@@ -50,7 +50,7 @@ img{
     padding: 10px;
     font-size: 40px;
 }
-.actions{
+.car .actions{
 	display: flex;
 	border-top: 10px #ffc solid;
     

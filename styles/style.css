@@ -60,10 +60,29 @@
 	border: 0;
 	border-top: 10px #ffc solid;
 	justify-content: space-between;
-    padding: 10px;
+    /* padding: 10px; */
+	padding: 0px;
 }
 
+.header::before{
+	content: 'x';
+	background: red;
+}
 
+.car .actions .button{
+	flex: 1;
+	margin: 0;
+	border-radius: 0;
+}
+.car .actions .button:hover{
+	background: #7e00ef;
+}
+.car .actions .button:first-child{
+	border-bottom-left-radius: 20px;
+}
+.car .actions .button:last-child{
+	border-bottom-right-radius: 20px;
+}
 
 
 

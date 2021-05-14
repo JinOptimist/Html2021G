@@ -14,8 +14,11 @@
 	background: pink;
 }
 
+.menu-fly{
+	position: fixed;
+}
+
 .gallery{
-	width: 1200px;
 	background: green;
 	display: flex;
 	flex-wrap: wrap;
@@ -130,3 +133,14 @@ table tr:nth-child(2n + 1) td:nth-child(2n){
 #stat table tr:hover td{
 	background: #d0d;
 }
+
+
+.always{
+	position: fixed;
+	background: red;
+	width: 200px;
+	height: 200px;
+	left: 300px;
+	top: 150px;
+}
+

@@ -84,9 +84,18 @@
 	border-bottom-right-radius: 20px;
 }
 
+.statistic{
+	background: blue;
+	height: 600px;
+}
 
+.feedback{
+	background: #00ccaa;
+	height: 600px;
+}
 
-
-
+:target{
+	background: red;
+}
 
 

@@ -84,18 +84,45 @@
 	border-bottom-right-radius: 20px;
 }
 
+.content{
+	flex: 1;
+}
+
 .statistic{
-	background: blue;
 	height: 600px;
 }
 
 .feedback{
-	background: #00ccaa;
 	height: 600px;
 }
 
-:target{
-	background: red;
+.page:target{
+	display: flex;
 }
 
+.page{
+	display: none;
+}
 
+.rect{
+	background: #cc00aa;
+	height: 20px;
+	flex: 1;
+	margin: 10px;
+}
+
+table{
+	width: 100%;
+}
+
+table tr td{
+	border: 1px black solid;
+}
+
+table tr:nth-child(2n){
+	background: #ccc;
+}
+
+table tr:hover{
+	background: #d0d;
+}

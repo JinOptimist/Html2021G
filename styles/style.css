@@ -118,11 +118,15 @@ table{
 table tr td{
 	border: 1px black solid;
 }
+td{
+	background: pink;
+}
 
-table tr:nth-child(2n){
+table tr:nth-child(2n) td:nth-child(2n + 1),
+table tr:nth-child(2n + 1) td:nth-child(2n){ 
 	background: #ccc;
 }
 
-table tr:hover{
+#stat table tr:hover td{
 	background: #d0d;
 }

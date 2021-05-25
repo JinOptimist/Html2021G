@@ -161,8 +161,20 @@ table tr:nth-child(2n + 1) td:nth-child(2n){
   }
 }
 
+.section{
+	width: 100%;
+	height: 400px;
+	background-image: url(../images/Car1.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
-
+.link-nice{
+	font-size: 30px;
+	background: #ccc;
+}
 
 
 

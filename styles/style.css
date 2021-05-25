@@ -144,3 +144,26 @@ table tr:nth-child(2n + 1) td:nth-child(2n){
 	top: 150px;
 }
 
+
+@media screen and (max-width: 900px) {
+  .menu {
+	background: green;
+	width: 100%;
+  }
+  
+  .content {
+	background: green;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

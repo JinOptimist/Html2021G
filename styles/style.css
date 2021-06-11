@@ -51,6 +51,12 @@
 	border-color: #0cf;
 	border-style: dotted;
 }
+
+
+button:hover .name{
+	color: red;
+}
+
 .car .name{
 	border: 0;
 	border-bottom: 10px #ffc solid;    
@@ -145,7 +151,6 @@ table tr:nth-child(2n + 1) td:nth-child(2n){
 }
 
 #media{
-	display: flex;
 	flex-direction: column;
 }
 
@@ -171,6 +176,14 @@ table tr:nth-child(2n + 1) td:nth-child(2n){
 	align-items: center;
 }
 
+.chain{
+	position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+	margin-top: -10px;
+}
+
 .link-nice{
 	font-size: 30px;
 	background: #ccc;
@@ -178,9 +191,8 @@ table tr:nth-child(2n + 1) td:nth-child(2n){
 
 
 
-
-
-
-
+.button:hover{
+	background: red;
+}
 
 
